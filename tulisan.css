@@ -43,3 +43,10 @@
 .greetings > span:nth-child(9){
     animation-delay: 1.6s;
 }
+
+@media screen and (max-width:574px){
+    .greetings{
+        font-size: 3.5rem;
+        margin-bottom: 10em;
+    }
+}
